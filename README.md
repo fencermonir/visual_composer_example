@@ -1,6 +1,6 @@
 # Visual Composer Params
 
-## checkbox
+*** checkbox ***
 
 ```
 array(
@@ -11,3 +11,20 @@ array(
   'description' => __( 'Use font family from the theme.', 'js_composer' ),
 )
 ```
+
+*** select/ dropdown ***
+
+```
+array(
+  'type' => 'dropdown',
+  'heading' => __( 'Text source', 'js_composer' ),
+  'param_name' => 'source',
+  'value' => array(
+    __( 'Custom text', 'js_composer' ) => '',
+    __( 'Post or Page Title', 'js_composer' ) => 'post_title',
+  ),
+  'std' => '',
+  'description' => __( 'Select text source.', 'js_composer' ),
+),
+```
+      
