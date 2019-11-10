@@ -1,6 +1,6 @@
 # Visual Composer Params
 
-*** checkbox ***
+***checkbox***
 
 ```
 array(
@@ -12,7 +12,7 @@ array(
 )
 ```
 
-*** select/ dropdown ***
+***select/ dropdown***
 
 ```
 array(
